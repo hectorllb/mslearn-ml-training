@@ -10,6 +10,8 @@ from sklearn.linear_model import LogisticRegression
 import mlflow
 import mlflow.sklearn
 
+from sklearn.model_selection import train_test_split
+
 
 # define functions
 def main(args):
